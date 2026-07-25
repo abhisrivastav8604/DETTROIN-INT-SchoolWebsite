@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Linkedin, Youtube, MapPin, Phone, Mail } from 'lucide-react';
-
+import { MapPin, Phone, Mail } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Youtube } from '../icons/SocialIcons';
 const footerLinks = {
   'Explore': [
     { label: 'About Us', path: '/about' },

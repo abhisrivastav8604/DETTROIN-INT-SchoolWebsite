@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Linkedin, Youtube, Send, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Youtube } from '../components/icons/SocialIcons';
 import { AnimatedOnScroll } from '../components/ui/AnimatedOnScroll';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { Button } from '../components/ui/Button';
