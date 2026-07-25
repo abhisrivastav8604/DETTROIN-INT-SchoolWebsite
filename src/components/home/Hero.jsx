@@ -38,9 +38,9 @@ export function Hero() {
       aria-label="Hero section"
     >
       {/* Decorative orbs */}
-      <Orb className="w-[600px] h-[600px] bg-amber top-[-200px] left-[-200px]" />
-      <Orb className="w-[500px] h-[500px] bg-rose right-[-150px] top-[20%]" />
-      <Orb className="w-[400px] h-[400px] bg-emerald bottom-[-100px] left-[30%]" />
+      <Orb className="w-[600px] h-[600px] bg-amber top-[-200px] left-[-200px] animate-float" />
+      <Orb className="w-[500px] h-[500px] bg-rose right-[-150px] top-[20%]" style={{ animationDelay: '2s' }} />
+      <Orb className="w-[400px] h-[400px] bg-emerald bottom-[-100px] left-[30%]" style={{ animationDelay: '4s' }} />
 
       {/* Grid texture overlay */}
       <div
