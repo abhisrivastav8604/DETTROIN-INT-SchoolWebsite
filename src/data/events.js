@@ -9,7 +9,7 @@ export const events = [
     tag: 'Achievement',
     title: "Class XII CBSE Results: 98.4% Aggregate — School's Best in a Decade",
     excerpt: "Vasant Valley's graduating cohort of 2025 achieved an average aggregate of 98.4% in the CBSE Class XII examinations, with six students scoring a perfect 100 in their chosen subjects. Three students secured top-10 ranks across Delhi.",
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80',
+    image: 'https://picsum.photos/seed/event1/600/400',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const events = [
     tag: 'Sports',
     title: "Girls' Football Team Wins National Schools Championship in Bengaluru",
     excerpt: "Our Under-17 girls' football team claimed the national trophy at the Inter-School Football Championship held in Bengaluru, defeating 32 teams across five days of competition. Captain Priya Menon was awarded the tournament's Golden Boot.",
-    image: 'https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&q=80',
+    image: 'https://picsum.photos/seed/event2/600/400',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const events = [
     tag: 'Arts',
     title: 'Annual Theatre Festival "Illuminate" Draws Record 2,000-Strong Audience',
     excerpt: "This year's performing arts festival featured eleven original productions written, directed, and performed entirely by students from Grades 7 through 12. The headline production — a bilingual reimagining of a classic Indian folk tale — received a standing ovation on all three nights.",
-    image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=600&q=80',
+    image: 'https://picsum.photos/seed/event3/600/400',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ export const events = [
     tag: 'Innovation',
     title: 'VVS EcoLab Project Wins Silver at National Science Olympiad',
     excerpt: "The school's EcoLab team — a group of eight Grade 11 students — won the Silver Award at the National Science Olympiad for their rain-garden runoff filtration system, which has already been piloted on the school campus.",
-    image: 'https://images.unsplash.com/photo-1532094349884-543559769d0f?w=600&q=80',
+    image: 'https://picsum.photos/seed/event4/600/400',
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ export const events = [
     tag: 'Community',
     title: "Annual Vasant Valley Mela Raises \u20B918 Lakh for Rural Education Initiative",
     excerpt: "The school's flagship community fair, run entirely by student volunteers from Grades 9 through 12, raised \u20B918 lakh this year — the highest in its 20-year history — all directed to the school's rural scholarship programme in Rajasthan.",
-    image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&q=80',
+    image: 'https://picsum.photos/seed/event5/600/400',
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const events = [
     tag: 'Achievement',
     title: 'Three Students Selected for Indian National Mathematical Olympiad (INMO)',
     excerpt: "Vasant Valley students Aryan Kapoor (Grade 11), Shreya Iyer (Grade 12), and Kabir Mehta (Grade 10) have been selected to represent Delhi in the Indian National Mathematical Olympiad — the first time three students from one school have qualified simultaneously.",
-    image: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&q=80',
+    image: 'https://picsum.photos/seed/event6/600/400',
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ export const events = [
     tag: 'Sports',
     title: 'Chess Team Claims Delhi State Title for the Third Consecutive Year',
     excerpt: "Our chess team defended the Delhi State Schools Chess Championship for the third year in a row, with Aditi Nair claiming the individual girls' title and Rohan Verma finishing runner-up in the boys' open category.",
-    image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=600&q=80',
+    image: 'https://picsum.photos/seed/event7/600/400',
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ export const events = [
     tag: 'Arts',
     title: 'Student Literary Magazine "Meridian" Shortlisted for National School Press Award',
     excerpt: '"Meridian," Vasant Valley\'s entirely student-edited literary magazine, was shortlisted among the top five school publications in India at the National School Press Awards in Mumbai.',
-    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80',
+    image: 'https://picsum.photos/seed/event8/600/400',
   },
   {
     id: 9,
@@ -97,7 +97,7 @@ export const events = [
     tag: 'Achievement',
     title: 'Class XII 2024 Results: 97.8% Average — 12 Centum Scorers',
     excerpt: "The 2024 graduating batch achieved a 97.8% average across all streams, with twelve students recording perfect 100 scores. Admissions to IITs, NLUs, medical colleges, and global universities span over 40 institutions.",
-    image: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80',
+    image: 'https://picsum.photos/seed/event9/600/400',
   },
   {
     id: 10,
@@ -108,7 +108,7 @@ export const events = [
     tag: 'Innovation',
     title: 'Design Thinking Lab Inaugurated — 3D Printing, Robotics & AI Workstations',
     excerpt: "Vasant Valley opened its new Design Thinking Lab, equipped with professional-grade 3D printers, robotics kits, Arduino workstations, and AI sandboxes — available to all students from Grade 6 onwards.",
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80',
+    image: 'https://picsum.photos/seed/event10/600/400',
   },
 ];
 
