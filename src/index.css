@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base Reset & Globals ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-base: #0B0E14;
+  --color-surface: #0F1420;
+  --color-surface-2: #161C2D;
+  --color-text: #F0EDE6;
+  --color-text-muted: #9DA3AE;
+  --color-amber: #F5A623;
+  --color-rose: #E8375A;
+  --color-emerald: #4F9E7E;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+/* ─── Gradient Text Utility ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #F5A623 0%, #E8375A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-alt {
+  background: linear-gradient(135deg, #4F9E7E 0%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Glassmorphism Card ─── */
+.glass {
+  background: rgba(15, 20, 32, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ─── Gradient Border Utility ─── */
+.gradient-border {
+  position: relative;
+}
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(245,166,35,0.4), rgba(232,55,90,0.4));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ─── Animated Mesh Background ─── */
+.mesh-bg {
+  background-color: var(--color-base);
+  background-image:
+    radial-gradient(at 20% 20%, hsla(28, 100%, 55%, 0.12) 0px, transparent 50%),
+    radial-gradient(at 80% 10%, hsla(353, 84%, 55%, 0.10) 0px, transparent 45%),
+    radial-gradient(at 50% 80%, hsla(160, 75%, 40%, 0.08) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, hsla(220, 70%, 60%, 0.07) 0px, transparent 40%);
+}
+
+/* ─── Gradient Accent Line ─── */
+.accent-line {
+  display: block;
+  width: 60px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #F5A623, #E8375A);
+}
+
+.accent-line-center {
+  display: block;
+  width: 60px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #F5A623, #E8375A);
+  margin: 0 auto;
+}
+
+/* ─── Section Spacing ─── */
+.section-py {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-py {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-py {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+/* ─── Container ─── */
+.container-px {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 88rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .container-px {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-px {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* ─── Pillar Card Hover Glow ─── */
+.pillar-card:hover {
+  box-shadow:
+    0 0 0 1px rgba(245, 166, 35, 0.25),
+    0 8px 40px rgba(245, 166, 35, 0.12),
+    0 0 80px rgba(232, 55, 90, 0.06);
+  transform: translateY(-4px);
+}
+
+.pillar-card {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ─── Button Glow ─── */
+.btn-glow {
+  box-shadow: 0 0 20px rgba(245, 166, 35, 0.25);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.btn-glow:hover {
+  box-shadow: 0 0 35px rgba(245, 166, 35, 0.45);
+  transform: translateY(-1px);
+}
+
+/* ─── Scrollbar Styling ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-base);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ─── Focus styles for accessibility ─── */
+:focus-visible {
+  outline: 2px solid #F5A623;
+  outline-offset: 3px;
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── Horizontal scroll container ─── */
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── Navbar transition ─── */
+.navbar-solid {
+  background: rgba(11, 14, 20, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* ─── Image overlay utility ─── */
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+}
+.img-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(11, 14, 20, 0.9) 100%);
+}
+
+/* ─── Abstract shape blobs ─── */
+.blob {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  filter: blur(60px);
+  opacity: 0.15;
+}
