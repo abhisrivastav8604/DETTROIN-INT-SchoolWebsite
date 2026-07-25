@@ -1,3 +1,4 @@
+// Learning Experience — Eight Pillars detail with sidebar navigation
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
