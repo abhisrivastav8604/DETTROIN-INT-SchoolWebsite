@@ -54,7 +54,7 @@ export function Hero() {
 
       {/* Content */}
       <motion.div
-        className="container-px relative z-10 text-center pt-28 pb-20"
+        className="container-px relative z-10 text-center pt-24 sm:pt-28 pb-16 sm:pb-20"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
