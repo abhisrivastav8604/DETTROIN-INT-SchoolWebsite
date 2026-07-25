@@ -2,7 +2,7 @@ import { AnimatedOnScroll, StaggerContainer, StaggerItem } from '../components/u
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { GlassCard } from '../components/ui/GlassCard';
 import { Button } from '../components/ui/Button';
-import { Heart, Star, Globe, BookOpen } from 'lucide-react';
+import { Heart, Star, Globe, BookOpen, Award } from 'lucide-react';
 
 const values = [
   { icon: Heart, label: 'Compassion', desc: 'We cultivate genuine care for others — in every classroom, corridor, and community interaction.' },
