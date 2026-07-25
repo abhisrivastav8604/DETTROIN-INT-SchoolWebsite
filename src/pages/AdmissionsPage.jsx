@@ -1,3 +1,4 @@
+// Admissions page — process steps, key dates, validated form, FAQ accordion
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AnimatedOnScroll, StaggerContainer, StaggerItem } from '../components/ui/AnimatedOnScroll';
