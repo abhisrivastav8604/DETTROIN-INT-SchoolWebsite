@@ -70,7 +70,7 @@ export function Navbar() {
               <span className="font-display font-bold text-white text-base leading-none">V</span>
             </div>
             <div className="flex flex-col leading-none">
-              <span className="font-display font-semibold text-text text-sm md:text-base tracking-wide">
+              <span className="font-display font-semibold text-white text-sm md:text-base tracking-wide">
                 Vasant Valley
               </span>
               <span className="font-sans text-text-muted text-[10px] tracking-widest uppercase mt-0.5">

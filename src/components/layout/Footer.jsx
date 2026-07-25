@@ -42,7 +42,7 @@ export function Footer() {
                 <span className="font-display font-bold text-white text-lg">V</span>
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-display font-semibold text-text text-base">Vasant Valley School</span>
+                <span className="font-display font-semibold text-white text-base">Vasant Valley School</span>
                 <span className="font-sans text-text-muted text-[10px] tracking-widest uppercase mt-0.5">
                   Est. 1990 · Vasant Kunj, New Delhi
                 </span>
