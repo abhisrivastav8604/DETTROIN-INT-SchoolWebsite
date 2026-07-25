@@ -5,6 +5,7 @@ export function SectionHeading({
   center = false,
   light = false,
   gradientWord,
+  id,
 }) {
   // Optionally wrap a specific word in gradient styling
   const renderTitle = () => {
@@ -41,6 +42,7 @@ export function SectionHeading({
         <span className="accent-line mb-6 block" />
       )}
       <h2
+        id={id}
         className={`font-display font-semibold leading-tight-2 ${
           light ? 'text-white' : 'text-text'
         } text-3xl sm:text-4xl lg:text-5xl`}
